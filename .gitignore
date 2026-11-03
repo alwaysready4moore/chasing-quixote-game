@@ -1,13 +1,32 @@
-# Ren'Py compilation, saves and cache
+# Ren'Py compilation, saves and cache.
+# The /game patterns match the gitignore written by the Ren'Py 8.5.3 launcher.
 *.rpyc
 *.rpymc
+/game/saves
+/game/cache
 game/saves/
 game/cache/
+/game/**/*.rpyc
+/game/**/*.rpymc
+/game/**/*.bak
+/game/**/*.new
+/game/**/*.old
 game/traceback.txt
 game/log.txt
 traceback.txt
 errors.txt
 log.txt
+/errors.txt
+/files.txt
+/image_cache.txt
+/log.txt
+/save_dump.txt
+/traceback.txt
+
+# Launcher-generated extracts.
+/dialogue.tab
+/dialogue.txt
+/strings.json
 
 # Distributions / build output
 build/
