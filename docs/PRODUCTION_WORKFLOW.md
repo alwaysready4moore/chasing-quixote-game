@@ -32,4 +32,4 @@ Start with one Ashes Lounge background and one approved Fox character portrait. 
 
 ## Build status
 
-The repository starts with a source-only, spoiler-free *mechanical* scene. It has not yet been run in the Ren'Py SDK. Run the first engine smoke test before expanding it.
+The repository is a Ren'Py 8.5.3 project with a source-only, spoiler-free *mechanical* scene. The first engine smoke test is the `cq_prototype` suite in `game/cq_smoke.rpy`. Run that, and lint, before expanding the scene.
