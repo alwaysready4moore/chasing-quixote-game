@@ -1,0 +1,30 @@
+# Ren'Py compilation, saves and cache
+*.rpyc
+*.rpymc
+game/saves/
+game/cache/
+game/traceback.txt
+game/log.txt
+traceback.txt
+errors.txt
+log.txt
+
+# Distributions / build output
+build/
+dist/
+dists/
+*.zip
+
+# Editor and Python
+.venv/
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secret/config overrides
+.env
+.env.*
+!.env.example
